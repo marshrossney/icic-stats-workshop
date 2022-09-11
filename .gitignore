@@ -1,5 +1,7 @@
-__pycache__
+__pycache__/
 *.pyc
-*.ipynb_checkpoints
-prelim-exercise
-example-book
+*.ipynb_checkpoints/
+prelim-exercise/
+example-book/
+myst_cheat_sheet.pdf
+_build/

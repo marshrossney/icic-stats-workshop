@@ -1,0 +1,21 @@
+title: ICIC Data Analysis Workshop
+author: Joe Marsh Rossney
+logo: logo.png
+
+execute:
+  execute_notebooks: force
+
+latex:
+  latex_documents:
+    targetname: book.tex
+
+bibtex_bibfiles:
+  - references.bib
+
+repository:
+  url: https://github.com/marshrossney/icic-stats-workshop
+  path_to_book: notes
+  branch: main
+
+html:
+  use_repository_button: true

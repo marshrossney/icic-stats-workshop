@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "icic-stats-workshop"
+name = "workshop"
 version = "0.1.0"
 description = "Course on Data Analysis and Bayesian Statistics at the Imperial Centre for Inference and Cosmology, September 2022"
 authors = ["marshrossney <17361029+marshrossney@users.noreply.github.com>"]
