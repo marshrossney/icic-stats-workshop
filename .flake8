@@ -1,0 +1,7 @@
+[flake8]
+ignore = 
+per-file-ignores =
+exclude = 
+    .venv
+    __pycache__
+    example-book

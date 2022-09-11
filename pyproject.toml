@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "icic-stats-workshop"
+version = "0.1.0"
+description = "Course on Data Analysis and Bayesian Statistics at the Imperial Centre for Inference and Cosmology, September 2022"
+authors = ["marshrossney <17361029+marshrossney@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "icic_data_analysis_course"}]
+
+[tool.poetry.dependencies]
+python = "3.10.7"
+ipython = "^8.5.0"
+numpy = "^1.23.3"
+matplotlib = "^3.5.3"
+pandas = "^1.4.4"
+scipy = "^1.9.1"
+jupyterlab = "^3.4.6"
+jupyter-book = "^0.13.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = {extras = ["jupyter"], version = "^22.8.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 79
+target-version = ['py310']
+exclude = '''
+(
+  /(
+      \.venv
+    | __pycache__
+    | example-book
+  )/
+)
+'''
